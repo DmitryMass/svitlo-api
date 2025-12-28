@@ -8,9 +8,10 @@ async function bootstrap() {
     origin: [
       'http://localhost:5173',
       'http://localhost:3000',
-      'https://svitlo-client.vercel.app/',
-      'https://svitlo-client-git-master-dmitrymass-projects.vercel.app/',
-      'https://svitlo-client-7be2rho5u-dmitrymass-projects.vercel.app/',
+      'https://svitlo-client.vercel.app',
+      'https://svitlo-client-git-master-dmitrymass-projects.vercel.app',
+      'https://svitlo-client-7be2rho5u-dmitrymass-projects.vercel.app',
+      '*',
     ],
     credentials: true,
   });
